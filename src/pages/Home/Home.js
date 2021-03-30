@@ -31,7 +31,8 @@ function Home(){
                 <Accordion title="CSS" body="not today"/>
                 <Accordion title="AWS" body="cloud computing"/>
                 <Inbox firstName='Marcell' lastName='Coleman' nickName='Beastymc' dateOfBirth='June 3rd, 1996' />
-                <ProfilePic small='../../pics/Sasuke' regular='../../pics/Rem' large='../../pics/Kaisen' />
+                {/* <ProfilePic small='../../pics/Sasuke' regular='../../pics/Rem' large='../../pics/Kaisen' /> */}
+                <ProfilePic />
             </Grid>
 
             {/* looks through the firstNames state and for each value inside the array, maps out a button with the name of the values inside of state. */}

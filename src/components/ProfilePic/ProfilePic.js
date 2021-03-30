@@ -1,6 +1,9 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Avatar from '@material-ui/core/Avatar';
+import Sasuke from '../../pics/Sasuke.jpg';
+import Rem from '../../pics/Rem.jpg';
+import Kaisen from '../../pics/Kaisen.jpg';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -19,14 +22,14 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function ImageAvatars(props) {
+export default function ImageAvatars() {
   const classes = useStyles();
 
   return (
     <div className={classes.root}>
-      <Avatar alt="Remy Sharp" src={props.small} className={classes.small} />
-      <Avatar alt="Remy Sharp" src={props.regular} />
-      <Avatar alt="Remy Sharp" src={props.large} className={classes.large} />
+      <Avatar alt="Kaisen" src= {Kaisen} className={classes.large} />
+      <Avatar alt="Rem" src= {Rem} className={classes.large} />
+      <Avatar alt="Sasuke" src= {Sasuke} className={classes.large} />
     </div>
   );
 }
