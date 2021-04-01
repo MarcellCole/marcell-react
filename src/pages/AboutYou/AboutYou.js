@@ -19,7 +19,9 @@ import React from "react";
 
 // export default AboutYou;
 export default function AboutYou(){
+    return(
     <div>
-        <h2>About You</h2>
+        <h2>About You? About me?</h2>
     </div>
+    )
 }

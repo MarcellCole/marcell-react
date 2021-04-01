@@ -1,12 +1,12 @@
 import React from 'react';
 import './Logo.css';
-import Pika from '../../pics/Surprised_Pikachu_HD.jpg';
+import Sasuke from '../../pics/Sasuke.jpg';
 
 function Logo (){
     return(
         //Created a logo with pika pic
         <div>
-            <img src={Pika} className="logo" alt="pic"/>
+            <img src={Sasuke} className="logo" alt="pic"/>
         </div>
     )
 }
